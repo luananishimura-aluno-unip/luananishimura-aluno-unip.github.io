@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Carteirinha Digital - UNIP</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #002b5c, #00509e);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .card {
+      background: white;
+      width: 350px;
+      border-radius: 15px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+      text-align: center;
+      padding: 25px;
+    }
+
+    .header {
+      background: #002b5c;
+      color: white;
+      padding: 10px;
+      border-radius: 10px 10px 0 0;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .photo {
+      margin: 20px 0;
+    }
+
+    .photo img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #002b5c;
+    }
+
+    .info {
+      text-align: left;
+      margin-top: 15px;
+    }
+
+    .info p {
+      margin: 6px 0;
+      font-size: 14px;
+    }
+
+    .status {
+      margin-top: 15px;
+      padding: 8px;
+      border-radius: 8px;
+      font-weight: bold;
+      color: white;
+    }
+
+    .ativo {
+      background: #28a745;
+    }
+
+    .footer {
+      margin-top: 15px;
+      font-size: 12px;
+      color: gray;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <div class="header">
+      UNIVERSIDADE PAULISTA - UNIP
+    </div>
+
+    <div class="photo">
+      <img src="https://via.placeholder.com/150" alt="Foto do aluno">
+    </div>
+
+    <div class="info">
+      <p><strong>Nome:</strong> Luana Nishimura</p>
+      <p><strong>RA:</strong> 12345678</p>
+      <p><strong>Curso:</strong> Administração</p>
+      <p><strong>Validade:</strong> 12/2026</p>
+    </div>
+
+    <div class="status ativo">
+      Carteirinha Válida
+    </div>
+
+    <div class="footer">
+      Documento digital para verificação acadêmica.
+    </div>
+  </div>
+
+</body>
+</html>
